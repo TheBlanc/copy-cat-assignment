@@ -68,6 +68,7 @@ figure.wallpaper {
 .welcome .message h1 {
   color: white;
   font-size: 40px;
+  font-weight: 600;
   text-align: center;
   padding-top: 25px;
 }
@@ -119,4 +120,49 @@ div.prod-pictures figure {
   display: inline-block;
   width: 30%;
   margin: 12px;
+}
+
+  /*************** PRODUCTS SECTION *************/
+section.about {
+  background-color: #26547C;
+  padding: 30px 20px;
+}
+
+.team {
+  overflow: auto;
+}
+
+.team > div {
+  text-align: center;
+  float: left;
+  display: inline-block;
+  color: #EF476F;
+  width: 33.333333333333%;
+
+}
+
+div.team h1 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 22px 0px;
+}
+
+section.about p {
+  color: white;
+  font-size: 20px;
+  margin: 16px 0px;
+}
+
+
+footer {
+  overflow: auto;
+  background-color: #06D6A0;
+  padding: 0px 20px;
+}
+
+div.footer {
+  float: right;
+  padding: 16px 0px;
+  font-size: 20px;
+
 }
