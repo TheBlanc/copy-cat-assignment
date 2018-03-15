@@ -91,3 +91,32 @@ section.cats {
 div.cat-container {
   padding-bottom: 32px;
 }
+
+  /*************** PRODUCTS SECTION *************/
+section.products {
+  background-color: #F2F2F2;
+  padding: 30px 20px;
+
+}
+
+section.products h1 {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 12px 0px;
+}
+
+section.products p {
+  font-size: 20px;
+  margin: 16px 0px;
+}
+
+div.prod-pictures {
+  overflow: auto;
+}
+
+div.prod-pictures figure {
+  border: 3px solid black;
+  display: inline-block;
+  width: 30%;
+  margin: 12px;
+}
