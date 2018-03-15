@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", helvetica, sans-serif;
+
+}
+
+section {
+  max-width: 900px;
+  margin: auto;
+}
+
+/******************* NAV BAR *****************/
+nav {
+  font-size: 18px;
+  overflow: auto;
+  width: 100%;
+  background-color: #06d6a0;
+
+}
+
+nav h1 {
+  display: inline-block;
+  color: white;
+  padding: 20px;
+  font-weight: bold;
+}
+
+nav ul {
+  float: right;
+  padding-right: 20px;
+
+}
+
+nav ul li {
+  font-size: 19px;
+  display: inline-block;
+  padding: 20px 7px;
+}
+
+  /*************** WELCOME SECTION *************/
+section.welcome {
+  overflow: auto;
+  background-color: #26547c;
+
+}
+
+div.wallpaper {
+  display: inline-block;
+  float: left;
+  width: 60%;
+  padding-bottom: 2px;
+
+
+}
+
+figure.wallpaper {
+  display:inline-block;
+}
+
+.message {
+  float: right;
+  width: 40%;
+}
+
+.welcome .message h1 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 25px;
+}
+  /*************** CATS SECTION *************/
+section.cats {
+
+  background-color: #FFD166;
+}
+
+.cats h1 {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 50px 0px 10px 21px;
+}
+
+.cats p {
+  font-size: 20px;
+  padding: 15px 0px 10px 20px;
+}
+
+div.cat-container {
+  padding-bottom: 32px;
+}
